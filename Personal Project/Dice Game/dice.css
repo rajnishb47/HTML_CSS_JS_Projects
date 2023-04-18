@@ -1,0 +1,35 @@
+body{
+    background-color:#415E7E;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1{
+    color: yellow;
+    text-align: center;
+    font-size: 3rem;
+    padding-right: 100px;
+}
+
+table{
+    padding-left: 35%;
+    color: azure;
+}
+
+.game{
+    color: #e5ededba;
+    font-size: 2rem;
+    padding-right: 100px;
+}
+
+.btn{
+    color: rgb(27, 26, 26);
+    margin-left: 2%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    height: 55px;
+    width: 224px;
+    border-radius: 25px;
+    font-weight: 1.5rem;
+    font-size: larger;
+    cursor: pointer;
+    background-color: #abc7c5ba;
+}

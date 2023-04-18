@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f1f1f1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.about{
+    background: url(Aboutus.jpeg) no-repeat left;
+    background-size: 64%;
+    background-color: #312e2e;
+    overflow: hidden;
+    padding: 100px 0;
+}
+.inner-box{
+    width: 55%;
+    float: right;
+    background-color: rgb(204, 204, 196);
+    padding: 140px;
+    box-shadow: 13px 12px 8px rgba(10, 9, 9, 0.3);
+}
+.inner-box h1{
+    color: rgb(216 161 21);
+    margin-bottom: 30px;
+    font-size: 37px;
+    font-weight: 900;
+}
+.text{
+    font-size: 19px;
+    color: #272525;
+    line-height: 17px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+.skills button{
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 20px 0px 20px 0px;
+    padding: 9px;
+    width: 128px;
+    background-color: #d49d4c;
+    color: white;
+    cursor: pointer;
+}
+.skills button:hover{
+   
+    background-color: #ecf5f5;
+    color:  rgb(216 161 21);
+}
+.social-media{
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 25px;
+}
+.social-media a{
+    
+    color: #d49d4c;
+}
+@media screen and (max-width:1200px){
+    .inner-box{
+        padding: 80px;
+    }
+}
+@media screen and (max-width:1000px){
+    .about{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-box{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .about{
+        padding: 0;
+    }
+    .inner-box{
+        padding: 60px;
+    }
+    .skills button{
+        font-size: 19px;
+        padding: 5px;
+        width: 160px;
+    }
+}

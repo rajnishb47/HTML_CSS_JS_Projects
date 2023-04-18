@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DICE CHALLANGE GAME</title>
+    <link rel="stylesheet" href="dice.css">
+
+</head>
+
+<body>
+
+    <h1 id="result">LET'S PLAY THE GAME</h1>
+    <table>
+        <tr>
+            <td class="game name">Player1</td>
+            <td class="game name">Player2 </td>
+        </tr>
+        <tr>
+            <td class="game" id="dice1"><img src="dice1.png"></td>
+            <td class="game" id="dice2"><img src="dice1.png"></td>
+        </tr>
+    </table>
+
+
+    <input class="btn" type="button" value="Play" id="playBtn" style="margin-left: 30%;" onclick="play()">
+
+    <input class="btn" type="button" value="Edit Name" onclick="edit()">
+
+</body>
+<script src="dice.js"></script>
+
+</html>
